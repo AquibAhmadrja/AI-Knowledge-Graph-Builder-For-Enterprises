@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Exclude data folders (only keep scripts to generate)
+Data/
+Entity_Enriched_Data/
+Normalized_data/
+json_data/
+chunks_text/
+csv_normalize/
+output/
+
+# Exclude large vector DB files (regenerate if needed)
+vector_db/faiss_final.index
+vector_db/metadata_final.json
