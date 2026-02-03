@@ -21,7 +21,9 @@ Data/
 Entity_Enriched_Data/
 Normalized_data/
 json_data/
+kg_text/
 chunks_text/
+embedding/
 csv_normalize/
 output/
 
