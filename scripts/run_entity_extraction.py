@@ -39,6 +39,6 @@ def process_normalized_folder(input_folder, output_folder):
 
 if __name__ == "__main__":
     process_normalized_folder(
-        "C:\\Users\\aquib\\Infosys_project\\Normalized_data",
-        "C:\\Users\\aquib\\Infosys_project\\Entity_Enriched_Data"
+        "Normalized_data",
+        "Entity_Enriched_Data"
     )

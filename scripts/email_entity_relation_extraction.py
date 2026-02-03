@@ -1,8 +1,8 @@
 import json
 from itertools import combinations
 
-INPUT_JSON = "C:\\Users\\aquib\\Infosys_project\\Entity_Enriched_Data\\entity_emails_spacy.json"
-OUTPUT_JSON = "C:\\Users\\aquib\\Infosys_project\\email_entity_relations.json"
+INPUT_JSON = "Entity_Enriched_Data\\entity_emails_spacy.json"
+OUTPUT_JSON = "email_entity_relations.json"
 
 
 def extract_entity_relations_from_email(doc):

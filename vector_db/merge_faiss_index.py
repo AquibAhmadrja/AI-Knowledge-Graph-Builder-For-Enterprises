@@ -1,10 +1,10 @@
 import faiss
 
 # -------- CONFIG --------
-MAIN_INDEX_PATH = "C:\\Users\\aquib\\Infosys_project\\vector_db\\faiss.index"
-KG_INDEX_PATH = "C:\\Users\\aquib\\Infosys_project\\kg_text\\faiss.index"
+MAIN_INDEX_PATH = "vector_db\\faiss.index"
+KG_INDEX_PATH = "kg_text\\faiss.index"
 
-FINAL_INDEX_PATH = "C:\\Users\\aquib\\Infosys_project\\vector_db\\faiss_final.index"
+FINAL_INDEX_PATH = "vector_db\\faiss_final.index"
 
 CHUNK_SIZE = 50000   # adjust if needed
 # -----------------------

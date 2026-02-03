@@ -79,7 +79,7 @@ def extract_relations(all_docs):
 
 if __name__ == "__main__":
 
-    with open("C:\\Users\\aquib\\Infosys_project\\all_entity_docs.json", "r", encoding="utf-8") as f:
+    with open("all_entity_docs.json", "r", encoding="utf-8") as f:
         all_docs = json.load(f)
 
     relations = extract_relations(all_docs)

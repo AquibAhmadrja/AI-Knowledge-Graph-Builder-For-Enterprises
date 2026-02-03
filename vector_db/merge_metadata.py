@@ -1,8 +1,8 @@
 # -------- CONFIG --------
-MAIN_METADATA = "C:\\Users\\aquib\\Infosys_project\\vector_db\\metadata_with_text.json"
-KG_METADATA = "C:\\Users\\aquib\\Infosys_project\\kg_text\\metadata_semi_with_text.json"
+MAIN_METADATA = "vector_db\\metadata_with_text.json"
+KG_METADATA = "kg_text\\metadata_semi_with_text.json"
 
-FINAL_METADATA = "C:\\Users\\aquib\\Infosys_project\\vector_db\\metadata_final.json"
+FINAL_METADATA = "vector_db\\metadata_final.json"
 # -----------------------
 
 

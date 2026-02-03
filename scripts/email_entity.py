@@ -5,9 +5,9 @@ import os
 from itertools import islice
 
 # ================= CONFIG =================
-INPUT_JSON = "C:\\Users\\aquib\\Infosys_project\\Normalized_data\\normalized_emails.json"
-OUTPUT_JSON = "C:\\Users\\aquib\\Infosys_project\\Entity_Enriched_Data\\entity_emails_spacy.json"
-PROGRESS_FILE = "C:\\Users\\aquib\\Infosys_project\\Entity_Enriched_Data\\email_progress.json"
+INPUT_JSON = "Normalized_data\\normalized_emails.json"
+OUTPUT_JSON = "Entity_Enriched_Data\\entity_emails_spacy.json"
+PROGRESS_FILE = "Entity_Enriched_Data\\email_progress.json"
 
 TOTAL_EMAIL_LIMIT = 10000     
 BATCH_SIZE = 100              

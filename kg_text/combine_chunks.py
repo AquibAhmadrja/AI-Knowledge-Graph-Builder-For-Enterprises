@@ -2,8 +2,8 @@ import os
 import json
 
 # -------- CONFIG --------
-CHUNKS_DIR = "C:\\Users\\aquib\\Infosys_project\\chunks_text"
-OUTPUT_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\all_chunks.json"
+CHUNKS_DIR = "chunks_text"
+OUTPUT_FILE = "all_chunks.json"
 # -----------------------
 
 

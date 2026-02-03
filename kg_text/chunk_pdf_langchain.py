@@ -5,8 +5,8 @@ from pathlib import Path
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # ---------- CONFIG ----------
-INPUT_DIR = "C:\\Users\\aquib\\Infosys_project\\Normalized_data"
-OUTPUT_DIR = "C:\\Users\\aquib\\Infosys_project\\chunks_text"
+INPUT_DIR = "Normalized_data"
+OUTPUT_DIR = "chunks_text"
 
 CHUNK_SIZE = 400
 OVERLAP = 50

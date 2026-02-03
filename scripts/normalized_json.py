@@ -41,4 +41,4 @@ def normalize_folder(input_folder, output_folder):
 
 # -------- USAGE --------
 if __name__ == "__main__":
-    normalize_folder("C:\\Users\\aquib\\Infosys_project\\json_data", "C:\\Users\\aquib\\Infosys_project\\Normalized_data")
+    normalize_folder("json_data", "Normalized_data")

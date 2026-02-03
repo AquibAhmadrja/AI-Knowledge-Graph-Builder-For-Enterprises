@@ -46,7 +46,7 @@ def extract_email_relations(docs):
 # ---------------- USAGE ----------------
 if __name__ == "__main__":
 
-    with open("C:\\Users\\aquib\\Infosys_project\\Normalized_data\\normalized_emails.json", "r", encoding="utf-8") as f:
+    with open("Normalized_data\\normalized_emails.json", "r", encoding="utf-8") as f:
         normalized_email_docs = json.load(f)
 
     email_relations = extract_email_relations(normalized_email_docs)

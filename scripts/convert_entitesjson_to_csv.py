@@ -1,8 +1,8 @@
 import json
 import csv
 
-INPUT_JSON = r"C:\Users\aquib\Infosys_project\all_entity_docs_1.json"
-OUTPUT_CSV = r"C:\Users\aquib\Infosys_project\entities.csv"
+INPUT_JSON = r"all_entity_docs_1.json"
+OUTPUT_CSV = r"entities.csv"
 
 with open(INPUT_JSON, "r", encoding="utf-8") as f:
     docs = json.load(f)

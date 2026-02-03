@@ -3,8 +3,8 @@ import os
 import re
 
 # ---------- CONFIG ----------
-TRIPLES_PATH = "C:\\Users\\aquib\\Infosys_project\\all_structured_semistructured_triples.json" 
-OUTPUT_PATH = "C:\\Users\\aquib\\Infosys_project\\kg_text\\semistructured_triples.txt"
+TRIPLES_PATH = "all_structured_semistructured_triples.json" 
+OUTPUT_PATH = "semistructured_triples.txt"
 # ----------------------------
 
 

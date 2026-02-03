@@ -4,8 +4,8 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 # -------- CONFIG --------
-INPUT_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\semi_chunks.json"
-OUTPUT_DIR = "C:\\Users\\aquib\\Infosys_project\\kg_text"
+INPUT_FILE = "semi_chunks.json"
+OUTPUT_DIR = "kg_text"
 
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 BATCH_SIZE = 32

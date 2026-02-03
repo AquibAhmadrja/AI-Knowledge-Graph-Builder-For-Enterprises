@@ -45,7 +45,7 @@ def deduplicate_triples(triples):
 
 if __name__ == "__main__":
 
-    with open("C:\\Users\\aquib\\Infosys_project\\relationship_extraction_all123.json", "r", encoding="utf-8") as f:
+    with open("relationship_extraction_all123.json", "r", encoding="utf-8") as f:
         relations = json.load(f)
 
     triples = create_triples(relations)

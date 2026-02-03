@@ -5,8 +5,8 @@ from collections import defaultdict
 from pathlib import Path
 
 # ---------- CONFIG ----------
-INPUT_TEXT_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\semistructured_triples.txt"
-OUTPUT_JSON_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\semi_chunks.json"
+INPUT_TEXT_FILE = "semistructured_triples.txt"
+OUTPUT_JSON_FILE = "semi_chunks.json"
 
 SOURCE_TYPE = "TXT"
 MAX_SENTENCES_PER_CHUNK = 5

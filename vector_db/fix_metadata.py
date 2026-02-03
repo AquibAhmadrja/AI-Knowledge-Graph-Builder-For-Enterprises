@@ -1,9 +1,9 @@
 import json
 
 # -------- CONFIG --------
-FINAL_CHUNKS_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\semi_chunks.json"
-OLD_METADATA_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\metadata_semi.json"
-NEW_METADATA_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\metadata_semi_with_text.json"
+FINAL_CHUNKS_FILE = "kg_text\\semi_chunks.json"
+OLD_METADATA_FILE = "kg_text\\metadata_semi.json"
+NEW_METADATA_FILE = "kg_text\\metadata_semi_with_text.json"
 # ------------------------
 
 

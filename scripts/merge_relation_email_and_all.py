@@ -37,8 +37,8 @@ def merge_relations(main_relations_file, email_relations_file,email_entity_relat
 if __name__ == "__main__":
 
     merge_relations(
-        "C:\\Users\\aquib\\Infosys_project\\relations.json",
-        "C:\\Users\\aquib\\Infosys_project\\email_relations.json",
-        "C:\\Users\\aquib\\Infosys_project\\email_entity_relations.json",
-        "C:\\Users\\aquib\\Infosys_project\\relationship_extraction_all123.json"
+        "relations.json",
+        "email_relations.json",
+        "email_entity_relations.json",
+        "relationship_extraction_all123.json"
     )

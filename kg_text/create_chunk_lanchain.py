@@ -4,9 +4,9 @@ from pathlib import Path
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # -------- CONFIG --------
-PDF_CHUNKS_DIR = "C:\\Users\\aquib\\Infosys_project\\kg_text"
-KG_SENTENCES_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\semistructured_triples.txt"
-OUTPUT_DIR = "C:\\Users\\aquib\\Infosys_project\\kg_text"
+PDF_CHUNKS_DIR = "chunks_text"
+KG_SENTENCES_FILE = "semistructured_triples.txt"
+OUTPUT_DIR = "chunks_text"
 OUTPUT_FILE = "final_chunks.json"
 
 KG_CHUNK_SIZE = 200

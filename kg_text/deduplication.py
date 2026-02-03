@@ -1,8 +1,8 @@
 import json
 import hashlib
 
-INPUT_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\final_chunks.json"
-OUTPUT_FILE = "C:\\Users\\aquib\\Infosys_project\\kg_text\\final_chunks_dedup.json"
+INPUT_FILE = "final_chunks.json"
+OUTPUT_FILE = "final_chunks_dedup.json"
 
 def hash_text(text):
     return hashlib.md5(text.encode("utf-8")).hexdigest()

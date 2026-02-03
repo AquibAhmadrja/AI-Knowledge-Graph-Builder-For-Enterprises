@@ -5,10 +5,10 @@ import numpy as np
 import shutil
 
 # -------- CONFIG --------
-EMBEDDINGS_PATH = "C:\\Users\\aquib\\Infosys_project\\kg_text\\embeddings.npy"
-METADATA_PATH = "C:\\Users\\aquib\\Infosys_project\\kg_text\\metadata.json"
+EMBEDDINGS_PATH = "kg_text\\embeddings.npy"
+METADATA_PATH = "kg_text\\metadata.json"
 
-OUTPUT_DIR = "C:\\Users\\aquib\\Infosys_project\\kg_text"
+OUTPUT_DIR = "kg_text"
 FAISS_INDEX_FILE = "faiss.index"
 # ------------------------
 

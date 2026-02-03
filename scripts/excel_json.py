@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-excel = pd.ExcelFile("C:\\Users\\aquib\\Infosys_project\\Data\\semistructured_data\\issues_snapshot_sample.xlsx")
+excel = pd.ExcelFile("Data\\semistructured_data\\issues_snapshot_sample.xlsx")
 json_data = []
 
 for sheet in excel.sheet_names:

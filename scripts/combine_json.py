@@ -33,6 +33,6 @@ def combine_entity_files(input_folder, output_file):
 
 # ---------------- USAGE ----------------
 combine_entity_files(
-    r"C:\Users\aquib\Infosys_project\Entity_Enriched_Data",
-    r"C:\Users\aquib\Infosys_project\all_entity_docs_1.json"
+    r"Entity_Enriched_Data",
+    r"all_entity_docs_1.json"
 )

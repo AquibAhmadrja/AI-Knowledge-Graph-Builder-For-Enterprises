@@ -5,8 +5,8 @@ import requests
 from sentence_transformers import SentenceTransformer
 
 # ================= CONFIG =================
-FAISS_INDEX_PATH = "C:/Users/aquib/Infosys_project/vector_db/faiss_final.index"
-METADATA_PATH = "C:/Users/aquib/Infosys_project/vector_db/metadata_final.json"
+FAISS_INDEX_PATH = "../vector_db/faiss_final.index"
+METADATA_PATH = "../vector_db/metadata_final.json"
 
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 

@@ -4,8 +4,8 @@ import csv
 import os
 import re
 
-INPUT_JSON = r"C:\Users\aquib\Infosys_project\all_structured_semistructured_triples.json"
-OUTPUT_CSV = r"C:\Users\aquib\Infosys_project\neo4j_triples_semistructured.csv"
+INPUT_JSON = r"all_structured_semistructured_triples.json"
+OUTPUT_CSV = r"neo4j_triples_semistructured.csv"
 
 os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
 
