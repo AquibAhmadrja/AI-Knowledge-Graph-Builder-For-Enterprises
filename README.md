@@ -174,6 +174,22 @@ Analytics dashboard for usage insights
 
 This project demonstrates a robust, scalable, and explainable Hybrid RAG architecture suitable for enterprise-level question answering systems. By combining structured knowledge with unstructured document retrieval, it achieves both accuracy and interpretability, going beyond traditional RAG implementations.
 
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+You are free to:
+- Use, copy, modify, and distribute this software
+- Use it for academic, research, and commercial purposes
+
+Under the following conditions:
+- The original copyright notice and license must be included
+- The software is provided **"as is"**, without warranty of any kind
+
+See the [LICENSE](LICENSE) file for full details.
+
+
+
 👤 Author
 
 [Aquib Ahmad rja]
